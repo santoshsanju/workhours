@@ -1,0 +1,65 @@
+.parent{
+    padding-top: 50px;
+    width: 50%;
+    margin: auto;
+}
+.last{
+    width: 40%;
+    margin: auto;
+    padding-top: 40px;
+}
+h1{
+    text-align: center;
+}
+p{
+    margin-top: 20px;
+    text-align: center;
+}
+.row1{
+    background-image: linear-gradient(135deg,#646c13,#333f0c);
+    padding: 20px;
+    border: 1px solid white;
+    border-bottom: none;
+    border-radius: 10px 10px 0px 0px;
+}
+.row2{
+    background-image: linear-gradient(135deg,rgba(0,0,0,.26),#1d2000);
+    padding: 20px;
+    border: 1px solid white;
+    border-top: none;
+    border-radius: 0px 0px 10px 10px;
+}
+.group{
+    /* border: 1px solid white; */
+    box-shadow: 1px 1px 1px black;
+    margin: 20px;
+    padding: 10px;
+}
+
+.col-3{
+    text-align: end;
+}
+
+@media screen and (max-width:1640px) {
+    .parent{
+        width: 60%;
+    }
+}
+
+@media screen and (max-width:1374px) {
+    .parent{
+        width: 70%;
+    }
+}
+
+@media screen and (max-width:1182px) {
+    .parent{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width:675px) {
+    .parent{
+        width: 90%;
+    }
+}

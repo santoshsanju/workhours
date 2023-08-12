@@ -1,0 +1,31 @@
+<div class="parent">
+    <h1>Program Overview</h1>
+    <div class="circle"></div>
+    <div class="row cols-sm-2">
+        <div class="co" *ngFor="let item of array;let i=index">
+            <div class="incol"> 
+                <div class="col-6">
+                    <div class="col-9 col1">
+                        <div class="week">Week {{i}}</div>
+                        <h3>{{item.title1}}</h3>
+                        <li *ngFor="let inside of item.para">{{inside}}</li>
+                        <h3 *ngIf="item.title2">{{item.title2}}</h3>
+                        <div *ngIf="item.para2">
+                            <li *ngFor="let in of item.para2" >{{in}}</li>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3 col2"></div>
+            </div>
+            <div class="over" *ngIf="array.length-1==i">
+                <div class="week1">BEYOND {{i+1}} WEEKS...</div>
+                <h3>It's over? Nope!</h3>
+                <p>While the program is done and you have learned everything about growth hacking, you will learn and grow together with your peers and stay connected for life through our community. </p>
+            </div>
+        </div>
+        
+    </div>
+    
+    <div class="apy"><button class="btn">Download Brochure</button></div>
+</div>
+<app-underline></app-underline>

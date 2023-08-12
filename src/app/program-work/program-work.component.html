@@ -1,0 +1,14 @@
+<div class="parent">
+    <h1>How does the program work?</h1>
+    <div class="row" *ngFor="let item of array">
+        <div class="col-5"><img src={{item.gif}} alt=""></div>
+        <div class="col-7"><h5 *ngFor="let inside of item.content">{{inside}}</h5>
+    </div>
+</div>
+<div class="another">
+    <div class="apy">
+        <app-apply-btn></app-apply-btn>
+    </div>
+    <p>Program starts on 10th Sept 2023</p>
+</div>
+<app-underline></app-underline>

@@ -1,0 +1,16 @@
+<div class="parent">
+    <h1>How it works?</h1>
+    <div class="row cols-sm-2">
+        <div class="col-6" *ngFor="let item of array">
+            <div class="circle"></div>
+            <div class="col col1">
+                <h3>{{item.title}}</h3>
+                <p>{{item.details}}</p></div>
+                <div class="col col2"></div>
+        </div>
+        <div class="col-6"></div>
+    </div>
+    <div class="apy"><app-apply-btn></app-apply-btn></div>
+    <p class="last">Program starts on 26th June 2023</p>
+</div>
+<app-underline></app-underline>

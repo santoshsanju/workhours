@@ -1,0 +1,12 @@
+<div>
+    <h1>People who have taken the Cohort</h1>
+    <p>A 8-week cohort-based course to help you build a Growth hacking mindset and boost your career.</p>
+    <div class="row">
+        <div class="col-4" *ngFor="let emp of images">
+            <img src={{emp.img}} alt="" class="photo">
+            <img src={{emp.name}} alt="" class="brand">
+        </div>
+    </div>
+</div>
+
+<app-underline></app-underline>

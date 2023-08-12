@@ -1,0 +1,26 @@
+<div class="parent">
+    <h1>Instructed by</h1>
+    <div class="row">
+        <div class="col-3">
+            <img class="image" src="https://uploads-ssl.webflow.com/5fdb2866020c200cd7fd7369/621e98c0ca1634f75b8e0412_DSC08761%204.jpg" alt="">
+        </div>
+        <div class="col-9">
+            <h5>
+                Vaibhav Sisinty <br class="br">Growth Hacker, Entrepreneur Ex. Uber, Klook
+            </h5>
+            <p>Hi, I am Vaibhav Sisinty.</p>
+            <p class="br">I turn startups into profitable businesses, growth consult for brands & help them use the internet to increase profitability & their overall bottom lines.</p> 
+            <p class="br">In 2012 (at age 19), I moved from running Discovery Android to founding an award winning digital media company, CrazyHeads. Within 3 years, CrazyHead helped 100+ clients over the world grow their businesses using internet.</p>
+            <p class="br">After working at Uber ( India & Latin America ) for 4.5 years, I joined Klook to lead marketing for India & the Middle East where I scaled the business to over $27M in a year.</p>
+                    
+                <h6 class="br">Featured in</h6>
+                <ul class="br">
+                    <li class="img" *ngFor="let item of array"><img src={{item}} alt=""></li>
+                </ul>
+                <ul>
+                    <li  class="img" *ngFor="let item of array.reverse()"><img src={{item}} alt=""></li>
+                </ul>
+        </div>
+    </div>
+</div>
+<app-underline></app-underline>

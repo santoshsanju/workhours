@@ -1,0 +1,18 @@
+<div>
+    <h1>Guest sessions by</h1>
+        <div class="row">
+            <div class="col-4" *ngFor="let item of array;let i=index">
+                <div class="inside">
+                    <p>{{item.title}}</p>
+                    <img src={{item.img}} alt="">
+                    <div class="live" *ngIf="i<7"><span></span> Live</div>
+                    <h5>{{item.name}}</h5>
+                    <p>{{item.designation}}</p>
+                </div>
+            </div>
+        </div>
+</div>
+<button class="btn">Next <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+    <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+  </svg></button>
+<app-underline></app-underline>

@@ -1,0 +1,67 @@
+h1,p{
+    text-align: center;
+}
+p{
+    margin: 40px;
+}
+.photo{
+    width: 100px;
+    height: 100px;
+    position: relative;
+}
+.brand{
+    transform: scale(0.5);
+    border: 1px solid white;
+    padding: 25px;
+    background-color: white;
+    border-radius: 15px;
+    position: relative;
+    bottom: 50px;
+    right: 0px;
+    box-shadow: 1px 1px 1px black;
+}
+
+.row{
+    margin: 50px;
+}
+
+.col-4:nth-child(4) ,.col-4:nth-child(5) ,.col-4:nth-child(6){
+    text-align:end;
+}
+.col-4:nth-child(4) .brand,.col-4:nth-child(5) .brand,.col-4:nth-child(6) .brand{
+    left: 60px;
+}
+@media screen and (min-width: 790px) {
+    .brand{
+        width: 300px;
+    }
+    .col-4{
+        margin-bottom: 40px;
+    }
+}
+ 
+@media screen and (min-width: 1352px) {
+    /* .photo{
+        width: 200px;
+        height: 200px;
+    } */
+    /* .col-4{
+        margin-bottom: 0px;
+    } */
+}
+@media screen and (min-width: 1652px) {
+    .brand ,.col-4:nth-child(4) .brand,.col-4:nth-child(5) .brand,.col-4:nth-child(6) .brand{
+        top:50px;
+        left:-120px;
+    }
+    .brand{
+        transform: scale(0.4);
+    }
+    /* .photo{
+        width: 300px;
+        height: 300px;
+    } */
+    /* .col-4{
+        margin-bottom: 0px;
+    } */
+}

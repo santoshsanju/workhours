@@ -1,0 +1,13 @@
+h1{
+    text-align: center;
+    margin: 40px;
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+img{
+    width: 100%;
+    transform: scale(0.8);
+}

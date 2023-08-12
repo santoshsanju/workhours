@@ -1,0 +1,60 @@
+h1{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.row{
+    width: 75%;
+    margin: 20px auto;
+    border: 1px solid  rgba(255,255,255,.27);
+    box-shadow: 1p 1px 1px  rgba(255,255,255,.27);
+    background-image: linear-gradient(rgba(0,0,0,.88),#200000);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.parent{
+    width: 50%;
+    margin: auto;
+}
+.col-2{
+    text-align: center;
+    /* margin-top: 5px; */
+    background-color: #c71f1e;
+    width: 40px;
+    height: 40px;
+    border: 6px solid rgba(105,1,0,.8);
+    border-radius: 50%;
+    margin-right: 20px;
+}
+svg{
+    width: 25px;
+    height: 25px;
+    margin-left: -10px;
+}
+@media screen and (max-width:1280px) {
+    .parent{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width:770px) {
+    .parent{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width:667px) {
+    .parent{
+        width: 100%;
+    }
+    .row{
+        padding: 20px;
+    }
+}
+
+
+@media screen and (max-width:574px) {
+    .row{
+        padding: 15px;
+    }
+}

@@ -1,0 +1,157 @@
+h1{
+    text-align: center;
+    margin: 50px;
+}
+.parent{
+    width: 65%;
+    margin: auto;
+}
+.circle{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-image: linear-gradient(#96b42b,#ddee36);
+    position: relative;
+    left: 46.8%;
+}
+.row{
+    width: 100%;
+    position: relative;
+}
+.co{
+    width: 100%;
+    position: relative;
+    /* margin: 20px; */
+}
+.incol{
+    display: flex;
+}
+.col-6, .col-9{
+    border-right: 5px solid rgba(196,196,196,.3);
+    /* margin: auto; */
+}
+
+.co:nth-child(even) .incol .col-6,.col-9,.col-3{
+    margin-left: 4px;
+}
+.col1{
+    /* width: 50%; */
+    border: 1px solid;
+    border-radius: 15px;
+    padding: 40px;
+   
+}
+/* .col2{
+    background-color: aliceblue;
+    width: 50%;
+} */
+h3{
+    margin-bottom: 20px;
+}
+.apy{
+    margin-top: 50px;
+    text-align: center;
+}
+.btn{
+    border: 1px solid #96b42b;
+    color: white;
+    padding: 20px 50px;
+}
+.last{
+    text-align: center;
+}
+.week{
+    border: 1px solid #96b42b;
+    background-color: #96b42b;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bolder;
+    color: black;
+    position: absolute;
+    top: -3%;
+}
+.week1{
+    width: 25%;
+    margin: auto;
+    border: 1px solid #96b42b;
+    background-color: #96b42b;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bolder;
+    color: black;
+    position: relative;
+    top:-75px;
+}
+.over{
+    display: block;
+    border: 1px solid #96b42b;
+    border-radius: 15px;
+    background-image: linear-gradient(120deg,rgba(0,0,0,.26),#1d2000);
+    text-align: center;
+    padding: 50px;
+    margin: 0px 10px 0px 10px;
+}
+
+/* .co:nth-child(odd) .col1{
+    border-right: 5px solid white;
+} */
+
+/* .box{
+    border-right: 5px solid white;
+} */
+
+.co:nth-child(even){
+    transform: scale(-1,1);
+}
+
+.co:nth-child(even) .week{
+top:-15px;
+left:30px;
+}
+
+.co:nth-child(even) .col1{
+    transform: scale(-1,1);
+    /* border-left: 5px solid white; */
+}
+.over{
+    transform: scale(-1,1);
+    margin-top: 25px;
+}
+
+.col-9{
+    background-image: linear-gradient(148deg,rgba(0,0,0,.26),rgba(156,185,43,.12));
+}
+
+li{
+    margin: 10px;
+}
+
+@media screen and (max-width:1402px) {
+    .circle{
+        left:45.8%;
+    }
+    .parent{
+        width: 75%;
+    }
+}
+
+@media screen and (max-width:1162px) {
+
+    .parent{
+        width: 85%;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .parent{
+        width: 100%;
+    }
+}
+@media screen and (max-width:675px) {
+    .circle{
+        left:43.8%;
+    }
+    .parent{
+        width: 100%;
+    }
+}

@@ -1,0 +1,64 @@
+h1{
+    text-align: center;
+}
+span,.col-4 h1{
+    color: #96b42b;
+}
+.col-4{
+    text-align: center;
+    padding: 20px;
+    margin: 50px 0px;
+    border-right: 1px solid #96b42b;
+}
+.col-4:last-child{
+    border: none;
+}
+ul{
+    list-style: none;
+    font-weight: bolder;
+}
+li{
+    text-align: end;
+}
+img{
+    border-radius: 50%;
+}
+.boxname{
+    width: 75%;
+    border: 1px dotted #96b42b;
+    padding: 20px;
+    margin: auto;
+    align-items: center;
+}
+.parent{
+    margin: auto;
+    width: 50%;
+}
+
+@media screen and (max-width:1380px) {
+    .parent{
+        width: 60%;
+    }
+}
+
+@media screen and (max-width:1110px) {
+    .parent{
+        width: 70%;
+    }
+}
+
+@media screen and (max-width:960px) {
+    .parent{
+        width: 80%;
+    }
+}
+@media screen and (max-width:841px) {
+    .parent{
+        width: 90%;
+    }
+}
+/* @media screen and (max-width:841px) {
+    .outer{
+        width: 100%;
+    }
+} */

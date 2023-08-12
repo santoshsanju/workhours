@@ -1,0 +1,59 @@
+div{
+    text-align: center;
+    background-color: rgb(44, 44, 44);
+    padding: 40px;
+    font-weight: lighter;
+    font-size: small;
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap:15px;
+    align-items: center;
+}
+
+li:last-child{
+    border-left: 1px solid white;
+    padding-left: 10px;
+}
+.sub{
+    background-color: rgb(22, 22, 22);
+    text-align: center;
+    font-weight: lighter;
+    font-size: small;
+    padding: 5px;
+}
+
+p{
+    width: 30%;
+    margin: auto;
+}
+
+.parent{
+    margin-top: 100px;
+}
+
+@media screen and (max-width:1640px) {
+    p{
+        width: 40%;
+    }
+}
+
+@media screen and (max-width:1374px) {
+    p{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:1182px) {
+    p{
+        width: 60%;
+    }
+}
+
+@media screen and (max-width:675px) {
+    p{
+        width: 70%;
+    }
+}
